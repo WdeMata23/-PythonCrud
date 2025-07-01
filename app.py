@@ -7,7 +7,7 @@ from productos import productos
 
 @app.route("/ping")
 def ping():
-    return "Pong"
+    return jsonify({"messae": "pong!"})
 
 
 if __name__ == "__main__":
